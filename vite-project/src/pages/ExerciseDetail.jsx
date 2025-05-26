@@ -30,7 +30,7 @@ const ExerciseDetail = () => {
       };
       fetchTargetMuscleExercises();
     }
-  }, []);//exerciseDetail
+  }, [exerciseDetail]);//
   
   useEffect(() => {
     if (exerciseDetail.equipment) {

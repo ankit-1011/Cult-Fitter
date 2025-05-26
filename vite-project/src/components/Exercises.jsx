@@ -28,7 +28,7 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
     };
 
     fetchExercisesData();
-  }, []);//bodyPart, setExercises
+  }, [bodyPart, setExercises]);//
 
   // Calculate exercises for current page
   const indexOfLastExercise = currentPage * exercisesPerPage;
